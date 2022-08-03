@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <title>Login</title>
 </head>
+    <link href="static/assets/css/style.css" rel="stylesheet">
 
 <body>
-    
-        
+    <center>
+        <h1>Customer Reviews</h1>
         {% for x in y %}
-        <h1>{{y[x]['name']}}</h1>
-        <P>{{y[x]['email']}}</P>
-
+            <h2>Name: <br>{{y[x]['name']}}</h2>
+            <P>{{y[x]['message']}}</P>
+            <br><br>
         {% endfor %}
-
+    </center>
 </body>
 </html>

@@ -1168,7 +1168,7 @@ section {
 
 /*--------------------------------------------------------------
 # Book A Table
---------------------------------------------------------------*/
+--- -----------------------------------------------------------*/
 .book-a-table .php-email-form {
   width: 100%;
 }
@@ -1185,7 +1185,7 @@ section {
   font-size: 13px;
 }
 
-.book-a-table .php-email-form .error-message {
+/*.book-a-table .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1193,7 +1193,7 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-
+*/
 .book-a-table .php-email-form .error-message br+br {
   margin-top: 25px;
 }
